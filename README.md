@@ -2,8 +2,6 @@
 
 ***Developed by:J.K.LIWIN JOSE***
 
-# Classroom Monitoring System
-
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen.svg)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.7.0-red.svg)
