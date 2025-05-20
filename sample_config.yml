@@ -1,0 +1,42 @@
+# Configuration for Classroom Monitoring System
+
+# Camera settings
+camera:
+  index: 0  # Camera index (0 for default camera)
+  width: 1280
+  height: 720
+  fps: 30
+
+# Paths
+paths:
+  training_images: "Training_images/"
+  model_path: "trainedmodel4.pt"
+  output_csv: "Attendance.csv"
+  output_summary: "attendance_sum.csv"
+
+# Face recognition
+face_recognition:
+  tolerance: 0.5  # Lower is more strict
+  model: "hog"  # Options: "hog" (CPU) or "cnn" (GPU)
+
+# Behavior analysis
+behavior:
+  attentive:
+    - "upright"
+    - "raise_head"
+    - "hand-raising"
+    - "reading"
+    - "writing"
+  non_attentive:
+    - "Using_phone"
+    - "bend"
+    - "book"
+    - "bow_head"
+    - "phone"
+    - "sleep"
+    - "turn_head"
+  attendance_threshold: 50  # Percentage of attentive actions required for presence
+
+# Runtime
+session:
+  duration: 30  # Session duration in seconds, 0 for unlimited
