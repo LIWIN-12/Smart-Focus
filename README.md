@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen.svg)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.7.0-red.svg)
-![YOLO](https://img.shields.io/badge/YOLOv8-latest-yellow.svg)
+![YOLO](https://img.shields.io/badge/YOLOv11-latest-yellow.svg)
 
 A comprehensive classroom monitoring system that combines facial recognition and behavior analysis to automate attendance tracking and measure student engagement in real-time.
 
@@ -19,9 +19,7 @@ A comprehensive classroom monitoring system that combines facial recognition and
 - **Real-time Monitoring**: Provides visual feedback with bounding boxes and labels
 - **Attendance Reports**: Generates detailed attendance summaries with engagement statistics
 
-## Demo
 
-![Classroom Monitoring Demo](https://via.placeholder.com/800x400.png?text=Classroom+Monitoring+Demo)
 
 ## Requirements
 
@@ -30,7 +28,7 @@ A comprehensive classroom monitoring system that combines facial recognition and
 - PyTorch
 - NumPy
 - Pandas
-- Ultralytics (YOLOv8)
+- Ultralytics (YOLOv11)
 - face_recognition
 
 ## Installation
@@ -75,7 +73,7 @@ classroom-monitoring/
 
 1. Prepare your training images:
    - Add clear face images of each student to the `Training_images/` directory
-   - Name each image file with the student's name (e.g., `john_doe.jpg`)
+   - Name each image file with the student's name (e.g., `liwin.jpg`)
 
 2. Configure camera settings (if necessary):
    - Modify the `CAMERA_INDEX` value in the script to match your camera setup
