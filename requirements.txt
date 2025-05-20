@@ -5,7 +5,7 @@ torchvision>=0.15.0
 numpy>=1.22.0
 pandas>=1.5.0
 
-# YOLOv8
+# YOLOv11
 ultralytics>=8.0.0
 
 # Face recognition
